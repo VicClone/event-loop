@@ -6,7 +6,7 @@ btnEL.addEventListener('click', () => {
     const liNode = document.createElement('li');
     liNode.innerText = i;
     listEl.appendChild(liNode);
-    // alert(`add item ${i}`)
+    // alert(`add item ${i}`);
 });
 
 btnEL.click();
